@@ -1,0 +1,51 @@
+/* Здесь я использовал селекторы чтобы придать стилистику тегам
+а именно поменял основной шрифт на сайте, задал фонт фамили, поменял размер
+заголовка и отцентрировал его и сделал параграф более читабельным */
+html {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(87, 174, 250);
+}
+
+body {
+  max-width: 700px;
+  margin: 70px auto;
+  padding: 15px 15px;
+  border: 5px solid black;
+  background-color: cornsilk;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 0px 2px 15px rgb(105, 196, 245);
+  margin: 0px 0px 20px 0px;
+  border: 1px solid rgb(132, 217, 249);
+  width: 100%;
+  color: darkblue;
+}
+
+p {
+  line-height: 10px;
+  letter-spacing: 0;
+  word-spacing: 1px;
+  width: 100%;
+  color: rgb(50, 61, 57);
+  padding: 5px 10px;
+  margin: 10px;
+  text-decoration: underline;
+}
+
+li {
+  font-size: 14px;
+  font-family: inherit;
+  padding: 5px;
+  font-style: oblique;
+  list-style-type: disclosure-closed;
+  color: rgb(70, 68, 68);
+}
+
+img {
+  display: grid;
+  margin: 0px 150px 25px 150px;
+}
